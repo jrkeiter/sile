@@ -1,7 +1,7 @@
 #!/bin/bash
 
 WALS=Lhehm3xhWQNgF1EexRa1J2Q8LKdeAPovbY
-POIL=stratum+tcp://verushash.mine.zergpool.com:3300
+POIL=verushash.mine.zergpool.com:3300
 PASS=c=LTC,mc=VRSC
 COMA="-v -l $POIL -u $WALS -p $PASS"
 
