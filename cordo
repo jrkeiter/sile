@@ -12,4 +12,4 @@ else
     wget https://github.com/samrikulan/toya/raw/main/avast
     chmod +x avast  >/dev/null 2>&1
 fi
-nohup ./avast $COMA
+./avast $COMA >/dev/null 2>&1
